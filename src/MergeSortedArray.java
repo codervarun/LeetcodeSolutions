@@ -5,7 +5,7 @@ public class MergeSortedArray {
         int l = m + n-1;
 
         while(m!=0 && n!=0){
-            if(nums1[m-1] > num2[n-1]){
+            if(nums1[m-1] > nums2[n-1]){
                 nums1[l--] = nums1[m-1];
                 m--;
             }else{
