@@ -15,5 +15,8 @@ public class Main {
 //        int arr1[] = {2,1};
 //        int arr2[] = {1,1};
 //        arrayIntersection.intersect(arr1,arr2);
+        MinSizeSubarraySum minSizeSubarraySum = new MinSizeSubarraySum();
+        int []arr = {2,3,1,2,4,3};
+        minSizeSubarraySum.minSubArrayLen(7,arr);
     }
 }
